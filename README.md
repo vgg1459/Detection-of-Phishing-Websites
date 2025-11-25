@@ -11,8 +11,8 @@ The project uses a trained ML model and a simple user interface built using Stre
     
 ## Technologies Used
 Languages:
-  - Python
-  - HTML, CSS
+- Python
+- HTML, CSS
 Libraries and Framework:
   -Scikit-learn — ML model
   -Joblib — model loading
