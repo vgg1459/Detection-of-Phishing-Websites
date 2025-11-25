@@ -27,7 +27,7 @@ streamlit run app.py
 
 ## Disclaimer
 Due to environment differences or incomplete deployment files, some parts of the application **may not run fully**.  
-The core ML model (`phishing_model.pkl`) and related logic are intact and can be demonstrated separately if needed.
+
 
 ## Screenshots of Working Model
 
