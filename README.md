@@ -3,11 +3,11 @@ A machine-learning based web application that identifies whether a given URL is 
 The project uses a trained ML model and a simple user interface built using Streamlit/HTML templates.
 
 ## Features
-- URL-based phishing detection  
-- ML model trained using scikit-learn  
-- Lightweight and fast  
-- Simple web interface  
-- Beginner-friendly code
+  - URL-based phishing detection  
+  - ML model trained using scikit-learn  
+  - Lightweight and fast  
+  - Simple web interface  
+  - Beginner-friendly code
 
 ## Instructions to run the code
 
