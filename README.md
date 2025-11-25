@@ -14,14 +14,14 @@ Languages:
 - Python
 - HTML, CSS
 Libraries and Framework:
-  -Scikit-learn — ML model
-  -Joblib — model loading
-  -Pandas & NumPy — data handling
-  -Streamlit — web UI
-  -Flask 
+- Scikit-learn — ML model
+- Joblib — model loading
+- Pandas & NumPy — data handling
+- Streamlit — web UI
+- Flask 
 Machine Learning:
-  -Random Forest Classifier
-  -TF‑IDF Vectorizer for converting URLs to features
+- Random Forest Classifier
+- TF‑IDF Vectorizer for converting URLs to features
 
 ## Instructions to run the code
 
