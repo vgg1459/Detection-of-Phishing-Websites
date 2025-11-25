@@ -8,6 +8,20 @@ The project uses a trained ML model and a simple user interface built using Stre
   - Lightweight and fast  
   - Simple web interface  
   - Beginner-friendly code
+    
+## Technologies Used
+Languages:
+  - Python
+  - HTML, CSS 
+Libraries and Framewokr
+  -Scikit-learn — ML model
+  -Joblib — model loading
+  -Pandas & NumPy — data handling
+  -Streamlit — web UI
+  -Flask 
+Machine Learning
+  -Random Forest Classifier
+  -TF‑IDF Vectorizer for converting URLs to features
 
 ## Instructions to run the code
 
