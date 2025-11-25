@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Check Result</title>
+</head>
+<body>
+    <h1>URL Phishing Detection Result</h1>
+    <p>The URL you submitted is: <strong>{{ url }}</strong></p>
+    <p>Prediction: <strong>{{ prediction }}</strong></p>
+    <div>
+        {% if prediction == 'Phishing' %}
+            <p style="color: red;">Warning! The URL might be harmful. It is classified as a Phishing URL.</p>
+        {% else %}
+            <p style="color: green;">The URL appears to be safe. It is classified as Legitimate.</p>
+        {% endif %}
+    </div>
+    <a href="/">Check another URL</a>
+</body>
+</html>

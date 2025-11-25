@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishbuster</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='homecss.css') }}">
+    <script>
+        function compareVar() {
+            var x = document.getElementById("search").value;
+            let isSecure = x.includes("https");
+            document.getElementById("demo").innerHTML = isSecure ? "The URL is secure and is safe to open." : "It seems this url may lead to a phisphing or malicious website.It is not a safe url";
+        }
+
+        function clearInput() {
+            document.getElementById("search").value = '';
+            document.getElementById("demo").innerHTML = '';
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="{{ url_for('static', filename='logo.gif') }}" alt="Phishbuster Logo">
+            </div>
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="{{ url_for('signup') }}">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="box-main">
+                <h5 class="center-text">Detect whether your URL is a scam or genuine.</h5>
+                <ol class="instruction-list">
+                    <li>Paste the URL in the text box below.</li>
+                    <li>Click on the "Search" button and wait for the results.</li>
+                </ol>
+                    <br>
+                    <div class="input-group">
+                        <input type="url" id="search" placeholder="Paste URL here">
+                        <div>
+                            <button class="btn" onclick="compareVar()">Search</button>
+                            <button class="btn clear-btn" onclick="clearInput()">Clear</button>
+                        </div>
+                    </div>
+                    <p id="demo"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+<br>
+    <footer>
+        <div class="footer">
+            © 2024 All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
+
